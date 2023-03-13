@@ -3,6 +3,7 @@
 ## Tech Stack
 
 **Front:** React JS
+
 **API's:** Json server
 
 ### Pre-requisites:
@@ -15,7 +16,7 @@ node-js: 16.16.0 (lts version)
 
 ````bash
   git clone git@github.com:MuhammadMurtza/restaurant-table-reservation-system.git
-
+````
 #### Go to the project directory
 
 ```bash
