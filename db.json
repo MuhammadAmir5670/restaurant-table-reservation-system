@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "patron",
+      "password": "password",
+      "role": "patron"
+    },
+    {
+      "id": 2,
+      "username": "host",
+      "password": "password",
+      "role": "host"
+    },
+    {
+      "id": 3,
+      "username": "waitstaff",
+      "password": "password3",
+      "role": "waitstaff"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "username": "patron",
+      "phone": "password",
+      "date": "patron"
+    },
+    {
+      "id": 2,
+      "username": "host",
+      "password": "password",
+      "role": "host"
+    },
+    {
+      "id": 3,
+      "username": "waitstaff",
+      "password": "password3",
+      "role": "waitstaff"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "username": "Shahzeb Jafar",
+      "phone": "3018695993",
+      "date": "2023-03-13",
+      "id": 7
+    },
+    {
+      "username": "Shahzeb Jafar",
+      "phone": "3018695993",
+      "date": "2023-03-14",
+      "id": 8
+    },
+    {
+      "username": "Shahzeb Jafar",
+      "phone": "3018695993",
+      "date": "2023-03-14",
+      "id": 9
+    },
+    {
+      "username": "Shahzeb Jafar",
+      "phone": "3018695993",
+      "date": "2023-03-14",
+      "id": 10
+    },
+    {
+      "username": "Shahzeb Jafar",
+      "phone": "3018695993",
+      "date": "2023-03-14",
+      "id": 11
+    },
+    {
+      "username": "Shahzeb Jafar",
+      "phone": "3018695993",
+      "date": "2023-03-14",
+      "id": 12
+    },
+    {
+      "username": "Shahzeb Jafar",
+      "phone": "3018695993",
+      "date": "2023-03-14",
+      "id": 13
+    },
+    {
+      "username": "Shahzeb Jafar",
+      "phone": "3018695993",
+      "date": "2023-03-16",
+      "id": 14
+    },
+    {
+      "username": "Shahzeb Jafar",
+      "phone": "3018695993",
+      "date": "2023-03-14",
+      "id": 15
+    }
+  ]
+}
