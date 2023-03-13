@@ -8,7 +8,7 @@ const icons = {
 };
 
 // ==============================|| MENU ITEMS - EXTRA PAGES ||============================== //
-
+const user_id = 1;
 const pages = {
     id: 'authentication',
     // title: 'Reservation Information',
@@ -17,6 +17,14 @@ const pages = {
         {
             id: 'myReservation',
             title: 'My Reservation ',
+            type: 'item',
+            url: `/reservation/${user_id}`,
+            icon: icons.ProfileOutlined
+            // target: true
+        },
+        {
+            id: 'allReservation',
+            title: 'All Reservations ',
             type: 'item',
             url: '/reservations',
             icon: icons.ProfileOutlined

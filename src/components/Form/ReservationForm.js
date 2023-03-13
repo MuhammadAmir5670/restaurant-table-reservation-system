@@ -14,6 +14,7 @@ const validationSchema = yup.object({
 
 // Component function
 function ReservationForm() {
+    const userId = 1;
     const formik = useFormik({
         initialValues: {
             username: '',
@@ -22,7 +23,7 @@ function ReservationForm() {
         },
         validationSchema: validationSchema,
         onSubmit: async (values, actions) => {
-            const order = await apiService.addReservation(values.username, values.phone, values.date);
+            const order = await apiService.addReservation(values.username, values.phone, values.date, userId, 'Waiting');
             Object.keys(order).length !== 0 && toast.success('Reservation added successfully');
             actions.resetForm();
         }

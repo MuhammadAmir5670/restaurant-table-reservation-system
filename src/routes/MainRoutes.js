@@ -9,6 +9,7 @@ const DashboardDefault = Loadable(lazy(() => import('pages/dashboard')));
 
 // render - sample page
 const SamplePage = Loadable(lazy(() => import('pages/reservation/ReservationPage')));
+const OrderTableHost = Loadable(lazy(() => import('pages/dashboard/OrderTableHost')));
 
 // render - utilities
 const Typography = Loadable(lazy(() => import('pages/components-overview/Typography')));
@@ -17,7 +18,7 @@ const Shadow = Loadable(lazy(() => import('pages/components-overview/Shadow')));
 const AntIcons = Loadable(lazy(() => import('pages/components-overview/AntIcons')));
 
 // ==============================|| MAIN ROUTING ||============================== //
-
+const user_id = 1;
 const MainRoutes = {
     path: '/',
     element: <MainLayout />,
@@ -41,6 +42,10 @@ const MainRoutes = {
         },
         {
             path: 'reservations',
+            element: <OrderTableHost />
+        },
+        {
+            path: `reservation/${user_id}`,
             element: <SamplePage />
         },
         {
